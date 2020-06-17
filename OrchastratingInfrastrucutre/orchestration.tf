@@ -187,8 +187,7 @@ resource "aws_cloudfront_distribution" "imagecf" {
         }
     }
 
-
-    # SSL certificate for the service.
+    # SSL certificate for the service
     viewer_certificate {
         cloudfront_default_certificate = true
     }
